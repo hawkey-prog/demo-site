@@ -1,6 +1,12 @@
 {
-  "name": "demo-restaurant-site",
+  "name": "demo-site",
   "version": "1.0.0",
-  "description": "Демо-сайт ресторана для Cloudflare Pages",
-  "private": true
+  "description": "Демо сайт ресторана",
+  "main": "public/index.html",
+  "scripts": {
+    "build": "echo 'Build completed'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
