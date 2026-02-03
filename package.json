@@ -1,11 +1,6 @@
 {
   "name": "demo-restaurant-site",
   "version": "1.0.0",
-  "description": "Демо-версия сайта ресторана для Cloudflare Workers",
-  "scripts": {
-    "deploy": "wrangler deploy"
-  },
-  "devDependencies": {
-    "wrangler": "^3.0.0"
-  }
+  "description": "Демо-сайт ресторана для Cloudflare Pages",
+  "private": true
 }
