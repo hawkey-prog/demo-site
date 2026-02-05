@@ -73,11 +73,59 @@
             border-left: 4px solid #2196f3; 
         }
         
+        /* НОВЫЙ БЛОК - СТИЛИ */
+        .business-block { 
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%); 
+            color: white; 
+            padding: 30px; 
+            border-radius: 10px; 
+            text-align: center; 
+            margin-top: 50px; 
+            margin-bottom: 30px; 
+        }
+        .business-block h2 { 
+            color: white; 
+            margin-bottom: 15px; 
+            font-size: 1.8rem; 
+        }
+        .business-block p { 
+            font-size: 1.2rem; 
+            margin-bottom: 20px; 
+            opacity: 0.9; 
+        }
+        .tg-link { 
+            display: inline-block; 
+            background: white; 
+            color: #2E7D32; 
+            padding: 12px 30px; 
+            border-radius: 5px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 1.1rem; 
+            transition: all 0.3s ease; 
+            border: 2px solid transparent; 
+        }
+        .tg-link:hover { 
+            background: #f0f0f0; 
+            border-color: white; 
+            transform: translateY(-2px); 
+        }
+        
         /* Адаптивность */
         @media (max-width: 768px) {
             h1 { font-size: 2rem; }
             .container { padding: 15px; }
             .info-grid { grid-template-columns: 1fr; }
+            .business-block { 
+                padding: 20px; 
+                margin-top: 30px; 
+            }
+            .business-block h2 { 
+                font-size: 1.5rem; 
+            }
+            .business-block p { 
+                font-size: 1rem; 
+            }
         }
     </style>
 </head>
@@ -150,6 +198,15 @@
                 </div>
             </div>
         </section>
+
+        <!-- НОВЫЙ БЛОК ДЛЯ БИЗНЕСА -->
+        <div class="business-block">
+            <h2>Хотите такой же, но для вашего бизнеса?</h2>
+            <p>Напишите мне в Telegram:</p>
+            <a href="https://t.me/hawkey_17" target="_blank" class="tg-link">
+                📩 @hawkey_17
+            </a>
+        </div>
 
         <div style="text-align: center; margin: 40px 0;">
             <a href="tel:+70000000000" class="btn">📞 Забронировать столик</a>
